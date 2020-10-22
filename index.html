@@ -13,40 +13,74 @@
 
 	</head>
 	<body class="homepage">
-		<div class="background-img">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand" href="#">Navbar</a>
-
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-                </div>
-            </nav>
-            <div class="jumbo">
-                <h1>Place Your Startup!</h1>
-                <p>Find new and intresting startup on our website. Try by yourself!</p>
-                <button>Find Out</button>
-
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <a class="navbar-brand" href="#">Hidden brand</a>
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
             </div>
-        </div>
+        </nav>
 
 
+
+        <!--Slider-->
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/img8.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/img9.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/img10.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        <!--Slider-->
+
+        <!--Jumbotron-->
 				<div class="jumbotron jumbotron-fluid">
   				<div class="container">
     					<h1 class="display-4">Place Your Start-up, Right here</h1>
@@ -60,56 +94,9 @@
 							</button>
   				</div>
                 </div>
-                <!--
-                <div>
-                    <footer class="footer bg-dark" style="font-family: sans-serif">
-                        <div class="container">
-                            <div class="card-body">
-                            <ul class="list-inline row">
-                                <li class="col text-center list-inline-item">
-                                    <ul>
-                                        <li class="card-title h5">Contributers</li>
-                                        <li class="card-text text-white h6">Prachi Patel</li>
-                                        <li class="card-text text-white h6">Prithivraj</li>
-                                        <li class="card-text text-white h6">Pankti Shah</li>
-                                    </ul>
-                                </li>
-                                <li class="col text-center list-inline-item">
-                                    <ul>
-                                        <li class="card-title h5">Email</li>
-                                        <li class="card-text text-white h6">prachi19200@gmail.com</li>
-                                        <li class="card-text text-white h6">Prachi Patel</li>
-                                        <li class="card-text text-white h6">Prachi Patel</li>
-                                    </ul>
-                                </li>
-                                <li class="col text-center list-inline-item">
-                                    <ul>
-                                        <li class="card-title h5">Contact</li>
-                                        <li class="card-text text-white h6">9558040400</li>
-                                        <li class="card-text text-white h6">Prachi Patel</li>
-                                        <li class="card-text text-white h6">Prachi Patel</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <ul class="list-inline row">
-                                <li>
-                                    <a class="btn-floating btn-lg btn-li" type="button" role="button"><i class="fab fa-linkedin-in"></i></a>
-                                </li>
-                                <li>
-                                    <a class="btn-floating btn-lg btn-ins" type="button" role="button"><i class="fab fa-instagram"></i></a>
-                                </li>
-                                <li>
-                                    <a class="btn-floating btn-lg btn-git" type="button" role="button"><i class="fab fa-github white-text mr-4"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                        </div>
-                    </footer>
-                </div>
-                -->
+        <!--Jumbotron-->
 
-
-
+        <!--footer-->
                 <footer id="footer" class="page-footer unique-color-dark mt-4 text-white" style="padding-left: 0px; background-color: #1c2331;">
                     <div class="info-color-dark text-center py-4">
                         <!--Newsletter-->
@@ -121,10 +108,6 @@
                         <!--Contact-->
                         <a href="" class="border rounded p-2 px-3 mr-4 d-none d-md-inline-block">Contact us      
                         </a>
-                        
-                    
-            
-                    
                     </div>
                     <!--Footer Links-->
                     <div class="container text-center text-md-left mt-5">
@@ -210,6 +193,7 @@
                     </div>
                     <!--/.Copyright -->
                   </footer>
+        <!--footer-->
 
     </body>
 
