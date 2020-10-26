@@ -97,7 +97,7 @@ input, select, textarea {
 		margin-top: 0;
 		margin-bottom: 0;
 		min-height: 350px;
-		
+
 	}
 	.jumbotron button{
 		position: relative;
@@ -116,4 +116,12 @@ input, select, textarea {
 		width: auto;
 	}
 
-	
+	.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
+}
+
+.container-text-slider{
+	padding:100px;
+}
