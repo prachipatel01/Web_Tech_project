@@ -1,0 +1,25 @@
+.search-bar{
+    padding-top: 120px;
+    padding-left: 100px;
+    padding-bottom: 40px;
+}
+.search{
+    padding-right: 50px;
+}
+
+.output{
+    padding: 70px;
+}
+
+.card{
+    min-height: 600px;
+}
+
+.card-img-top{
+    max-height: 300px;
+    width: auto;
+}
+
+.card-f{
+    
+}

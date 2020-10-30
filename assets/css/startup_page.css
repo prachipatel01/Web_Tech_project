@@ -1,0 +1,90 @@
+.details{
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.buttons{
+    vertical-align: baseline;
+    padding-left:30px;
+}
+
+.card-header-tabs{
+    background-color:  rgb(223, 227, 235);
+    border: none;
+    border-radius: 10px;
+}
+
+.card-header-tabs nav-links{
+    padding-bottom: 0;
+}
+
+.content{
+    background-color: rgb(223, 227, 235);
+}
+
+.card-deck{
+    padding: 30px;
+    padding-top: 0;
+}
+
+.card{
+    border-top: none;
+    border: none;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: black;
+}
+
+.card-title{
+    font-size: larger;
+}
+
+.tools{
+    padding-top: 100px;
+}
+
+.alert{
+    text-align: center;
+}
+
+.sub-card{
+    margin-top: 20px;
+    max-width: 300px;
+    min-width: 300px;
+}
+
+.ratings{
+    background-color: rgb(246, 195, 72);
+    color: white;
+}
+
+.checked {
+    color: white;
+}
+.unchecked{
+    color: rgba(138, 136, 136, 0.63);
+}
+
+
+.reviews li{
+    font-size: smaller;
+}
+
+.team li{
+    font-size: smaller;
+}
+
+
