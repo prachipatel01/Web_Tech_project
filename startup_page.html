@@ -39,9 +39,9 @@
         <div>
             <div class="details">
                 <div class="jumbo">
-                    <h1 class="text-light s_name">Pure CSS Animated Gradient Background</h1>
+                    <h1 class="text-light s_name">{%STARTUP_NAME%}</h1>
                     <div class="btn-group mt-2 mb-4" role="group" aria-label="actionButtons">
-                        <a href="https://manuelpinto.in" target="_blank" class="d-block btn btn-outline-light">Visit my Website<i class="fas fa-external-link-square-alt ml-2"></i></a>
+                        <a href="{%WEBSITE%}" target="_blank" class="d-block btn btn-outline-light">Visit my Website<i class="fas fa-external-link-square-alt ml-2"></i></a>
                     </div>
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
                     
@@ -57,7 +57,7 @@
                             <button class="nav-link active profile-tab" href="#">Profile</button>
                           </li>
                           <li class="nav-item document-tab-li">
-                            <button class="nav-link disabled document-tab" href="#">Documents</button>
+                            <button class="nav-link disabled document-tab" href="#">Members</button>
                           </li>
                           <li class="nav-item gallery-tab-li">
                             <button class="nav-link disabled gallery-tab" href="#" tabindex="-1" aria-disabled="true">Gallery</button>
@@ -70,33 +70,32 @@
                         <div class="card main-card profile">
                             <div class="card-body">
                                 <h5 class="card-title">Startup Details</h5>
-                                <p class="profile-info">Director of Intigriti Robotics Solution at Intigriti Technocrats, palamu, Jharkhand, India.
-                                    A professional Robotics Specialist and Android Developer at Stark Industries (IAR - Institute of Advanced Robotics, Dehradun,Uttrakhand, India ).</p>
+                                <p class="my-3 p-3 bg-white rounded shadow-sm profile-info">{%DETAILS%}</p>
 
                                 <div class="tools card-deck">
                                     <div class="alert alert-primary col-sm-6" role="alert">
                                         <p style="font-weight: bold;">STAGE</p>
-                                        <p class="stage">Ideation</p>
+                                        <p class="stage">{%STAGE%}</p>
                                       </div>
                                       <div class="alert alert-secondary col-sm-6" role="alert">
                                         <p style="font-weight: bold;">FOCUS INDUSTRY</p>
-                                        <p class="focus-industry">Marketing</p>
+                                        <p class="focus-industry">{%FOCUS_INDUSTRY%}</p>
                                       </div>
                                       <div class="alert alert-success col-sm-6" role="alert">
                                         <p style="font-weight: bold;">FOCUS SECTOR</p>
-                                        <p class="focus-sector">Sales</p>
+                                        <p class="focus-sector">{%FOCUS_SECTOR%}</p>
                                       </div>
                                       <div class="alert alert-danger col-sm-6" role="alert">
                                         <p style="font-weight: bold;">SERVICE AREA</p>
-                                        <p class="service-area">E-commerce</p>
+                                        <p class="service-area">{%SERVICE_AREA%}</p>
                                       </div>
                                       <div class="alert alert-warning col-sm-6" role="alert">
                                         <p style="font-weight: bold;">No. OF ACTIVE YEARS</p>
-                                        <p class="years">10</p>
+                                        <p class="years">{%YEARS%}</p>
                                       </div>
                                       <div class="alert alert-info col-sm-6" role="alert">
                                         <p style="font-weight: bold;">LOCATION</p>
-                                        <p class="location">Farrukhabad, Uttar Pradesh</p>
+                                        <p class="location">{%LOCATION%}</p>
                                       </div>
                                 </div>    
                             </div>
@@ -104,78 +103,103 @@
                         
                         <div class="card main-card document" style="display: none;">
                             <div class="card-body">
-                                <h5 class="card-title">document Details</h5>
-                                <p class="document-info">Director of Intigriti Robotics Solution at Intigriti Technocrats, palamu, Jharkhand, India.
-                                    A professional Robotics Specialist and Android Developer at Stark Industries (IAR - Institute of Advanced Robotics, Dehradun,Uttrakhand, India ).</p>
+                                <h5 class="card-title">Members</h5>    
+                                    <div class="my-3 p-3 bg-white rounded shadow">
+                                      {%MEMBERS%}
+                                      <!--
+                                      <div class="media text-muted pt-3">
+                                        <svg class="bd-placeholder-img mr-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"><title>Placeholder</title><rect width="100%" height="100%" fill="#007bff"></rect><text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text></svg>
+                                        <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                                          <strong class="d-block text-gray-dark">@username</strong>
+                                          Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+                                        </p>
+                                      </div>
+                                      <div class="media text-muted pt-3">
+                                        <svg class="bd-placeholder-img mr-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"><title>Placeholder</title><rect width="100%" height="100%" fill="#e83e8c"></rect><text x="50%" y="50%" fill="#e83e8c" dy=".3em">32x32</text></svg>
+                                        <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                                          <strong class="d-block text-gray-dark">@username</strong>
+                                          Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+                                        </p>
+                                      </div>
+                                      <div class="media text-muted pt-3">
+                                        <svg class="bd-placeholder-img mr-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"><title>Placeholder</title><rect width="100%" height="100%" fill="#6f42c1"></rect><text x="50%" y="50%" fill="#6f42c1" dy=".3em">32x32</text></svg>
+                                        <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                                          <strong class="d-block text-gray-dark">@username</strong>
+                                          Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+                                        </p>
+                                      </div>
+                                      -->
+                                    </div>
+                            
+                          
 
                                 <div class="tools card-deck">
-                                    <div class="alert alert-primary col-sm-6" role="alert">
-                                        <p style="font-weight: bold;">STAGE</p>
-                                        <p>Ideation</p>
-                                      </div>
-                                      <div class="alert alert-secondary col-sm-6" role="alert">
-                                        <p style="font-weight: bold;">FOCUS INDUSTRY</p>
-                                        <p>Marketing</p>
-                                      </div>
-                                      <div class="alert alert-success col-sm-6" role="alert">
-                                        <p style="font-weight: bold;">FOCUS SECTOR</p>
-                                        <p>Sales</p>
-                                      </div>
-                                      <div class="alert alert-danger col-sm-6" role="alert">
-                                        <p style="font-weight: bold;">SERVICE AREA</p>
-                                        <p>E-commerce</p>
-                                      </div>
-                                      <div class="alert alert-warning col-sm-6" role="alert">
-                                        <p style="font-weight: bold;">No. OF ACTIVE YEARS</p>
-                                        <p>10</p>
-                                      </div>
-                                      <div class="alert alert-info col-sm-6" role="alert">
-                                        <p style="font-weight: bold;">LOCATION</p>
-                                        <p>Farrukhabad, Uttar Pradesh</p>
-                                      </div>
-                                </div>    
+                                  <div class="alert alert-primary col-sm-6" role="alert">
+                                      <p style="font-weight: bold;">STAGE</p>
+                                      <p class="stage">{%STAGE%}</p>
+                                    </div>
+                                    <div class="alert alert-secondary col-sm-6" role="alert">
+                                      <p style="font-weight: bold;">FOCUS INDUSTRY</p>
+                                      <p class="focus-industry">{%FOCUS_INDUSTRY%}</p>
+                                    </div>
+                                    <div class="alert alert-success col-sm-6" role="alert">
+                                      <p style="font-weight: bold;">FOCUS SECTOR</p>
+                                      <p class="focus-sector">{%FOCUS_SECTOR%}</p>
+                                    </div>
+                                    <div class="alert alert-danger col-sm-6" role="alert">
+                                      <p style="font-weight: bold;">SERVICE AREA</p>
+                                      <p class="service-area">{%SERVICE_AREA%}</p>
+                                    </div>
+                                    <div class="alert alert-warning col-sm-6" role="alert">
+                                      <p style="font-weight: bold;">No. OF ACTIVE YEARS</p>
+                                      <p class="years">{%YEARS%}</p>
+                                    </div>
+                                    <div class="alert alert-info col-sm-6" role="alert">
+                                      <p style="font-weight: bold;">LOCATION</p>
+                                      <p class="location">{%LOCATION%}</p>
+                                    </div>
+                              </div>    
                             </div>
                         </div>                    
 
                         <div class="card main-card gallery" style="display: none;">
                             <div class="card-body">
                                 <h5 class="card-title">gallery Details</h5>
-                                <p class="gallery-info">Director of Intigriti Robotics Solution at Intigriti Technocrats, palamu, Jharkhand, India.
-                                    A professional Robotics Specialist and Android Developer at Stark Industries (IAR - Institute of Advanced Robotics, Dehradun,Uttrakhand, India ).</p>
+                                <p class="gallery-info">{%GALLERY%}</p>
 
                                 <div class="tools card-deck">
-                                    <div class="alert alert-primary col-sm-6" role="alert">
-                                        <p style="font-weight: bold;">STAGE</p>
-                                        <p>Ideation</p>
-                                      </div>
-                                      <div class="alert alert-secondary col-sm-6" role="alert">
-                                        <p style="font-weight: bold;">FOCUS INDUSTRY</p>
-                                        <p>Marketing</p>
-                                      </div>
-                                      <div class="alert alert-success col-sm-6" role="alert">
-                                        <p style="font-weight: bold;">FOCUS SECTOR</p>
-                                        <p>Sales</p>
-                                      </div>
-                                      <div class="alert alert-danger col-sm-6" role="alert">
-                                        <p style="font-weight: bold;">SERVICE AREA</p>
-                                        <p>E-commerce</p>
-                                      </div>
-                                      <div class="alert alert-warning col-sm-6" role="alert">
-                                        <p style="font-weight: bold;">No. OF ACTIVE YEARS</p>
-                                        <p>10</p>
-                                      </div>
-                                      <div class="alert alert-info col-sm-6" role="alert">
-                                        <p style="font-weight: bold;">LOCATION</p>
-                                        <p>Farrukhabad, Uttar Pradesh</p>
-                                      </div>
-                                </div>    
+                                  <div class="alert alert-primary col-sm-6" role="alert">
+                                      <p style="font-weight: bold;">STAGE</p>
+                                      <p class="stage">{%STAGE%}</p>
+                                    </div>
+                                    <div class="alert alert-secondary col-sm-6" role="alert">
+                                      <p style="font-weight: bold;">FOCUS INDUSTRY</p>
+                                      <p class="focus-industry">{%FOCUS_INDUSTRY%}</p>
+                                    </div>
+                                    <div class="alert alert-success col-sm-6" role="alert">
+                                      <p style="font-weight: bold;">FOCUS SECTOR</p>
+                                      <p class="focus-sector">{%FOCUS_SECTOR%}</p>
+                                    </div>
+                                    <div class="alert alert-danger col-sm-6" role="alert">
+                                      <p style="font-weight: bold;">SERVICE AREA</p>
+                                      <p class="service-area">{%SERVICE_AREA%}</p>
+                                    </div>
+                                    <div class="alert alert-warning col-sm-6" role="alert">
+                                      <p style="font-weight: bold;">No. OF ACTIVE YEARS</p>
+                                      <p class="years">{%YEARS%}</p>
+                                    </div>
+                                    <div class="alert alert-info col-sm-6" role="alert">
+                                      <p style="font-weight: bold;">LOCATION</p>
+                                      <p class="location">{%LOCATION%}</p>
+                                    </div>
+                              </div>    
                             </div>
                         </div>                    
 
                     
                         <div>
                             <div class="card sub-card card-columns">
-                                <div class="card-body ratings">
+                                <div class="shadow card-body ratings">
                                     <h2>Star Rating</h2>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
@@ -188,18 +212,53 @@
                                 <div class="card-body reviews">
                                     <h2>Reviews:</h2>
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">very nice very nice very nice very nice </li>
-                                        <li class="list-group-item">very good</li>
+                                      {%REVIEWS%}
+                                    <!--
+                                      <li class="list-group-item">very nice very nice very nice very nice </li>
+                                      <li class="list-group-item">very good</li>
+                                    -->
                                     </ul>
                                 </div>
                             </div>
                             <div class="card sub-card card-columns">
                                 <div class="card-body team">
+                                  <h2>Contact:</h2>
                                     <ul class="list-group list-group-flush">
-                                        <h2>Team members:</h2>
+                                      <li class="list-group-item">
+                                        <ul class="phone">
+                                          <h4>Contact number:</h4>
+                                          {%PHONE%}
+                                          <!--
+                                          <li>very nice very nice </li>
+                                          <li>very good</li>
+                                          -->
+                                        </ul>
+                                      </li>
+                                      <li class="list-group-item">
+                                        <ul class="email">
+                                          <h4>Email ID:</h4>
+                                          {%EMAIL%}
+                                          <!--
+                                          <li>very nice very nice </li>
+                                          <li>very good</li>
+                                          -->
+                                        </ul>
+                                      </li>
+                                      <li class="list-group-item">
+                                        <ul class="LinkedIn">
+                                          <h4>LinkedIn:</h4>
+                                          {%LINKEDIN%}
+                                          <!--
+                                          <li>very nice very nice </li>
+                                          <li>very good</li>
+                                          -->
+                                        </ul>
+                                      </li>
+                                    </ul>
+                                      <!--
                                         <li class="list-group-item">very nice very nice very nice very nice </li>
                                         <li class="list-group-item">very good</li>
-                                    </ul>
+                                        -->
                                 </div>
                             </div>
                         </div>
@@ -317,8 +376,6 @@
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="./assets/data/startups_data.js"></script>
-        <script type="text/javascript" src="./assets/data/startup_name.js"></script>
         <script type="text/javascript" src="./assets/js/startup_page.js"></script>
 
 
