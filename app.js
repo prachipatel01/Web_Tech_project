@@ -53,6 +53,7 @@ const replaceTemplate = (temp,product) => {
 //console.log(`${__dirname}`);
 const home = fs.readFileSync(`${__dirname}\\index.html`,'utf-8');
 const index_css = fs.readFileSync(`${__dirname}\\assets\\css\\index.css`,'utf-8');
+const index_js = fs.readFileSync(`${__dirname}\\assets\\js\\index.js`,'utf-8');
 const startups_css = fs.readFileSync(`${__dirname}\\assets\\css\\startups.css`,'utf-8');
 const startup_page_css = fs.readFileSync(`${__dirname}\\assets\\css\\startup_page.css`,'utf-8');
 const startup_page_js = fs.readFileSync(`${__dirname}\\assets\\js\\startup_page.js`,'utf-8');
@@ -98,6 +99,10 @@ const server = http.createServer((req,res) => {
     else if(pathname==='/assets/css/startup_page.css'){
         res.writeHead(200, {'Content-type':'text/css'});
         res.end(startup_page_css);
+    }
+    else if(pathname==='/assets/js/index.js'){
+        res.writeHead(200, {'Content-type':'text/js'});
+        res.end(index_js);
     }
     else if(pathname==='/assets/js/startup_page.js'){
         res.writeHead(200, {'Content-type':'text/js'});
