@@ -1,0 +1,442 @@
+[
+    {
+        "id":1,
+        "name":"startup1",
+        "details":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
+        "description":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
+        "location":"Gujarat, India",
+        "focusIndustry":"Marketing",
+        "focusSector":"Sales",
+        "serviceArea":"E-commerce",
+        "stage":"Ideation",
+        "noActiveYears":"10 years",
+        "ratings":"4",
+        "website":"https://www.google.com/",
+        "imgid":"",
+        "reviews":[
+            {
+                "text":"very nice"
+            },
+            {
+                "text":"very nice"
+            },
+            {
+                "text":"very nice"
+            }
+        ],
+        "members":[
+            {
+                "name":"@username",
+                "text":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+            },
+            {
+                "name":"@username",
+                "text":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+            }
+        ],
+        "contact":{
+            "phone":[
+                {
+                    "text":"9558040444"
+                },
+                {
+                    "text":"9558040445"
+                }
+            ],
+            "email":[
+                {
+                    "text":"prachi.pce18@sot.pdpu.ac.in"
+                }
+            ],
+            "LinkedIn":[
+                {
+                    "text":"https://www.google.com/"
+                }
+            ]    
+        }
+    },
+    {
+        "id":2,
+        "name":"startup2",
+        "details":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
+        "description":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
+        "location":"Gujarat, India",
+        "focusIndustry":"Marketing",
+        "focusSector":"Sales",
+        "serviceArea":"E-commerce",
+        "stage":"Ideation",
+        "noActiveYears":"10 years",
+        "ratings":"3",
+        "imgid":"",
+        "reviews":[
+            {
+                "text":"very nice"
+            },
+            {
+                "text":"very nice"
+            },
+            {
+                "text":"very nice"
+            }
+        ],
+        "members":[
+            {
+                "name":"@username",
+                "text":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+            },
+            {
+                "name":"@username",
+                "text":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+            }
+        ],
+        "contact":{
+            "phone":[
+                {
+                    "text":"9558040444"
+                },
+                {
+                    "text":"9558040445"
+                }
+            ],
+            "email":[
+                {
+                    "text":"prachi.pce18@sot.pdpu.ac.in"
+                }
+            ],
+            "LinkedIn":[
+                {
+                    "text":"https://www.google.com/"
+                }
+            ]    
+        }
+    },
+    {
+        "id":3,
+        "name":"startup3",
+        "details":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
+        "description":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
+        "location":"Gujarat, India",
+        "focusIndustry":"Marketing",
+        "focusSector":"Sales",
+        "serviceArea":"E-commerce",
+        "stage":"Ideation",
+        "noActiveYears":"10 years",
+        "ratings":"3",
+        "imgid":"",
+        "reviews":[
+            {
+                "text":"very nice"
+            },
+            {
+                "text":"very nice"
+            },
+            {
+                "text":"very nice"
+            }
+        ],
+        "members":[
+            {
+                "name":"@username",
+                "text":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+            },
+            {
+                "name":"@username",
+                "text":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+            }
+        ],
+        "contact":{
+            "phone":[
+                {
+                    "text":"9558040444"
+                },
+                {
+                    "text":"9558040445"
+                }
+            ],
+            "email":[
+                {
+                    "text":"prachi.pce18@sot.pdpu.ac.in"
+                }
+            ],
+            "LinkedIn":[
+                {
+                    "text":"https://www.google.com/"
+                }
+            ]    
+        }
+        
+    },
+    {
+        "id":4,
+        "name":"startup4",
+        "details":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
+        "description":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
+        "location":"Gujarat, India",
+        "focusIndustry":"Marketing",
+        "focusSector":"Sales",
+        "serviceArea":"E-commerce",
+        "stage":"Ideation",
+        "noActiveYears":"10 years",
+        "ratings":"3",
+        "imgid":"",
+        "reviews":[
+            {
+                "text":"very nice"
+            },
+            {
+                "text":"very nice"
+            },
+            {
+                "text":"very nice"
+            }
+        ],
+        "members":[
+            {
+                "name":"@username",
+                "text":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+            },
+            {
+                "name":"@username",
+                "text":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+            }
+        ],
+        "contact":{
+            "phone":[
+                {
+                    "text":"9558040444"
+                },
+                {
+                    "text":"9558040445"
+                }
+            ],
+            "email":[
+                {
+                    "text":"prachi.pce18@sot.pdpu.ac.in"
+                }
+            ],
+            "LinkedIn":[
+                {
+                    "text":"https://www.google.com/"
+                }
+            ]    
+        }
+        
+    },
+    {
+        "id":5,
+        "name":"startup5",
+        "details":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
+        "description":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
+        "location":"Gujarat, India",
+        "focusIndustry":"Marketing",
+        "focusSector":"Sales",
+        "serviceArea":"E-commerce",
+        "stage":"Ideation",
+        "noActiveYears":"10 years",
+        "ratings":"3",
+        "imgid":"",
+        "reviews":[
+            {
+                "text":"very nice"
+            },
+            {
+                "text":"very nice"
+            },
+            {
+                "text":"very nice"
+            }
+        ],
+        "members":[
+            {
+                "name":"@username",
+                "text":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+            },
+            {
+                "name":"@username",
+                "text":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+            }
+        ],
+        "contact":{
+            "phone":[
+                {
+                    "text":"9558040444"
+                },
+                {
+                    "text":"9558040445"
+                }
+            ],
+            "email":[
+                {
+                    "text":"prachi.pce18@sot.pdpu.ac.in"
+                }
+            ],
+            "LinkedIn":[
+                {
+                    "text":"https://www.google.com/"
+                }
+            ]    
+        }
+    
+    },
+    {
+        "id":6,
+        "name":"startup6",
+        "details":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
+        "description":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
+        "location":"Gujarat, India",
+        "focusIndustry":"Marketing",
+        "focusSector":"Sales",
+        "serviceArea":"E-commerce",
+        "stage":"Ideation",
+        "noActiveYears":"10 years",
+        "ratings":"3",
+        "imgid":"",
+        "reviews":[
+            {
+                "text":"no reviews available"
+            }
+        ],
+        "members":[
+            {
+                "name":"@username",
+                "text":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+            },
+            {
+                "name":"@username",
+                "text":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+            }
+        ],
+        "contact":{
+            "phone":[
+                {
+                    "text":"9558040444"
+                },
+                {
+                    "text":"9558040445"
+                }
+            ],
+            "email":[
+                {
+                    "text":"prachi.pce18@sot.pdpu.ac.in"
+                }
+            ],
+            "LinkedIn":[
+                {
+                    "text":"https://www.google.com/"
+                }
+            ]    
+        }
+        
+    },
+    {
+        "id":7,
+        "name":"startup7",
+        "details":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
+        "description":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
+        "location":"Gujarat, India",
+        "focusIndustry":"Marketing",
+        "focusSector":"Sales",
+        "serviceArea":"E-commerce",
+        "stage":"Ideation",
+        "noActiveYears":"10 years",
+        "ratings":"3",
+        "imgid":"",
+        "reviews":[
+            {
+                "text":"very nice"
+            },
+            {
+                "text":"very nice"
+            },
+            {
+                "text":"very nice"
+            }
+        ],
+        "members":[
+            {
+                "name":"@username",
+                "text":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+            },
+            {
+                "name":"@username",
+                "text":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+            }
+        ],
+        "contact":{
+            "phone":[
+                {
+                    "text":"9558040444"
+                },
+                {
+                    "text":"9558040445"
+                }
+            ],
+            "email":[
+                {
+                    "text":"prachi.pce18@sot.pdpu.ac.in"
+                }
+            ],
+            "LinkedIn":[
+                {
+                    "text":"https://www.google.com/"
+                }
+            ]    
+        }
+        
+    },
+    {
+        "id":8,
+        "name":"startup8",
+        "details":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
+        "description":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
+        "location":"Gujarat, India",
+        "focusIndustry":"Marketing",
+        "focusSector":"Sales",
+        "serviceArea":"E-commerce",
+        "stage":"Ideation",
+        "noActiveYears":"10 years",
+        "ratings":"3",
+        "imgid":"",
+        "reviews":[
+            {
+                "text":"very nice"
+            },
+            {
+                "text":"very nice"
+            },
+            {
+                "text":"very nice"
+            }
+        ],
+        "members":[
+            {
+                "name":"@username",
+                "text":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+            },
+            {
+                "name":"@username",
+                "text":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+            }
+        ],
+        "contact":{
+            "phone":[
+                {
+                    "text":"9558040444"
+                },
+                {
+                    "text":"9558040445"
+                }
+            ],
+            "email":[
+                {
+                    "text":"prachi.pce18@sot.pdpu.ac.in"
+                }
+            ],
+            "LinkedIn":[
+                {
+                    "text":"https://www.google.com/"
+                }
+            ]    
+        }
+    }
+]

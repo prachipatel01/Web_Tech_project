@@ -99,3 +99,35 @@ document_tab_li.addEventListener("mouseout",disable);
 gallery_tab_li.addEventListener("mouseout",disable);
 //switching tabs
 
+const header = document.querySelector("nav");
+
+window.addEventListener("scroll", function(){
+  let scrollPosition = window.pageYOffset;
+  let scrollvalue = scrollPosition*0.9;
+  
+  if(scrollvalue>100){
+    header.style.visibility="hidden";
+  }
+  else{
+    header.style.visibility="visible";
+  }
+  //parallex2.style.transform  = 'translateY(' + scrollPosition*(-1) + 'px';
+
+})
+
+
+
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});

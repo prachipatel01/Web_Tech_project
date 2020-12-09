@@ -1,0 +1,47 @@
+<?php
+
+            if(isset($_POST['submit2']) && $_POST['submit2']){
+              if(isset($_POST['username-connect']) && isset($_POST['email-connect']) && isset($_POST['password-connect'])){
+                  if(!ifUserExistEmail($_POST['email-connect'])){
+                    addUser($_POST);
+                    echo '<div class="login-bg bg-active">
+                            <div class="inner-login-box">
+                              <form class="" action="" method="post">
+                                <h1>Thank You For Connecting!!</h1>
+                                <span class="modal-close login-close" style="padding-right:10px;">X</span>
+                              </form>
+                            </div>
+                          </div> ';
+                  }
+                  else{
+
+                    echo '<div class="login-bg bg-active">
+                            <div class="inner-login-box">
+                              <form class="" action="" method="post">
+                                <h1>You are already a member!</h1>
+                                <span class="modal-close login-close" style="padding-right:10px;">X</span>
+                              </form>
+                            </div>
+                          </div> ';
+                }
+              }
+              else{
+                echo '<div class="login-bg bg-active">
+                        <div class="inner-login-box">
+                          <form class="" action="" method="POST" id="form2">
+                            <h1>Connect with us</h1>
+                            <p class="highlight">*All fields are mandatory</p>
+                            <input class="username-connect" type="text" placeholder="Username" name="username">
+                            <input class="email-connect" type="text" placeholder="email" name="email">
+                            <input class="password-connect" type="password" placeholder="Password" name="password">
+                            <input class="submit-btn" type="submit" name="submit2" value="Connect">
+                            <span class="modal-close login-close" style="padding-right:10px;">X</span>
+                          </form>
+                        </div>
+                      </div>';
+                    
+              }
+            }
+          
+      
+          ?>

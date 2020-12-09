@@ -1,442 +1,544 @@
 [
     {
-        "id":1,
-        "name":"startup1",
-        "details":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
-        "description":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
-        "location":"Gujarat, India",
-        "focusIndustry":"Marketing",
-        "focusSector":"Sales",
-        "serviceArea":"E-commerce",
-        "stage":"Ideation",
-        "noActiveYears":"10 years",
-        "ratings":"3",
-        "website":"https://www.google.com/",
-        "imgid":"img.jpg",
-        "reviews":[
+        "id": 1,
+        "username": "a",
+        "useremail": "",
+        "name": "startup1",
+        "details": "What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
+        "description": "What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
+        "location": "Gujarat, India",
+        "focusIndustry": "Marketing",
+        "focusSector": "Sales",
+        "serviceArea": "E-commerce",
+        "stage": "Ideation",
+        "noActiveYears": "10 years",
+        "ratings": "4",
+        "website": "https:\/\/www.google.com\/",
+        "imgid": "https:\/\/bsmedia.business-standard.com\/_media\/bs\/img\/article\/2019-06\/05\/full\/1559674671-2023.jpg",
+        "reviews": [
             {
-                "text":"very nice"
+                "text": "very nice"
             },
             {
-                "text":"very nice"
+                "text": "very nice"
             },
             {
-                "text":"very nice"
+                "text": "very nice"
             }
         ],
-        "members":[
+        "members": [
             {
-                "name":"@username",
-                "text":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+                "name": "@username",
+                "text": "Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
             },
             {
-                "name":"@username",
-                "text":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+                "name": "@username",
+                "text": "Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
             }
         ],
-        "contact":{
-            "phone":[
+        "contact": {
+            "phone": [
                 {
-                    "text":"9558040444"
+                    "text": "9558040444"
                 },
                 {
-                    "text":"9558040445"
+                    "text": "9558040445"
                 }
             ],
-            "email":[
+            "email": [
                 {
-                    "text":"prachi.pce18@sot.pdpu.ac.in"
+                    "text": "prachi.pce18@sot.pdpu.ac.in"
                 }
             ],
-            "LinkedIn":[
+            "LinkedIn": [
                 {
-                    "text":"https://www.google.com/"
+                    "text": "https:\/\/www.google.com\/"
                 }
-            ]    
+            ]
         }
     },
     {
-        "id":2,
-        "name":"startup2",
-        "details":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
-        "description":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
-        "location":"Gujarat, India",
-        "focusIndustry":"Marketing",
-        "focusSector":"Sales",
-        "serviceArea":"E-commerce",
-        "stage":"Ideation",
-        "noActiveYears":"10 years",
-        "ratings":"3",
-        "imgid":"img.jpg",
-        "reviews":[
+        "id": 2,
+        "username": "b",
+        "useremail": "",
+        "name": "startup2",
+        "details": "What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
+        "description": "What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
+        "location": "Gujarat, India",
+        "focusIndustry": "Marketing",
+        "focusSector": "Sales",
+        "serviceArea": "E-commerce",
+        "stage": "Ideation",
+        "noActiveYears": "10 years",
+        "ratings": "3",
+        "imgid": "https:\/\/assets.entrepreneur.com\/content\/3x2\/2000\/20150805204041-google-company-building-corporate.jpeg",
+        "reviews": [
             {
-                "text":"very nice"
+                "text": "very nice"
             },
             {
-                "text":"very nice"
+                "text": "very nice"
             },
             {
-                "text":"very nice"
+                "text": "very nice"
             }
         ],
-        "members":[
+        "members": [
             {
-                "name":"@username",
-                "text":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+                "name": "@username",
+                "text": "Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
             },
             {
-                "name":"@username",
-                "text":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+                "name": "@username",
+                "text": "Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
             }
         ],
-        "contact":{
-            "phone":[
+        "contact": {
+            "phone": [
                 {
-                    "text":"9558040444"
+                    "text": "9558040444"
                 },
                 {
-                    "text":"9558040445"
+                    "text": "9558040445"
                 }
             ],
-            "email":[
+            "email": [
                 {
-                    "text":"prachi.pce18@sot.pdpu.ac.in"
+                    "text": "prachi.pce18@sot.pdpu.ac.in"
                 }
             ],
-            "LinkedIn":[
+            "LinkedIn": [
                 {
-                    "text":"https://www.google.com/"
+                    "text": "https:\/\/www.google.com\/"
                 }
-            ]    
+            ]
         }
     },
     {
-        "id":3,
-        "name":"startup3",
-        "details":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
-        "description":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
-        "location":"Gujarat, India",
-        "focusIndustry":"Marketing",
-        "focusSector":"Sales",
-        "serviceArea":"E-commerce",
-        "stage":"Ideation",
-        "noActiveYears":"10 years",
-        "ratings":"3",
-        "imgid":"img.jpg",
-        "reviews":[
+        "id": 3,
+        "username": "c",
+        "useremail": "",
+        "name": "startup3",
+        "details": "What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
+        "description": "What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
+        "location": "Gujarat, India",
+        "focusIndustry": "Marketing",
+        "focusSector": "Sales",
+        "serviceArea": "E-commerce",
+        "stage": "Ideation",
+        "noActiveYears": "10 years",
+        "ratings": "3",
+        "imgid": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcTltXkbVV4sX0AH4lQW9U_wy9xTn-4vw_LW1A&usqp=CAU",
+        "reviews": [
             {
-                "text":"very nice"
+                "text": "very nice"
             },
             {
-                "text":"very nice"
+                "text": "very nice"
             },
             {
-                "text":"very nice"
+                "text": "very nice"
             }
         ],
-        "members":[
+        "members": [
             {
-                "name":"@username",
-                "text":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+                "name": "@username",
+                "text": "Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
             },
             {
-                "name":"@username",
-                "text":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+                "name": "@username",
+                "text": "Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
             }
         ],
-        "contact":{
-            "phone":[
+        "contact": {
+            "phone": [
                 {
-                    "text":"9558040444"
+                    "text": "9558040444"
                 },
                 {
-                    "text":"9558040445"
+                    "text": "9558040445"
                 }
             ],
-            "email":[
+            "email": [
                 {
-                    "text":"prachi.pce18@sot.pdpu.ac.in"
+                    "text": "prachi.pce18@sot.pdpu.ac.in"
                 }
             ],
-            "LinkedIn":[
+            "LinkedIn": [
                 {
-                    "text":"https://www.google.com/"
+                    "text": "https:\/\/www.google.com\/"
                 }
-            ]    
+            ]
         }
-        
     },
     {
-        "id":4,
-        "name":"startup4",
-        "details":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
-        "description":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
-        "location":"Gujarat, India",
-        "focusIndustry":"Marketing",
-        "focusSector":"Sales",
-        "serviceArea":"E-commerce",
-        "stage":"Ideation",
-        "noActiveYears":"10 years",
-        "ratings":"3",
-        "imgid":"img.jpg",
-        "reviews":[
+        "id": 4,
+        "username": "d",
+        "useremail": "",
+        "name": "startup4",
+        "details": "What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
+        "description": "What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
+        "location": "Gujarat, India",
+        "focusIndustry": "Marketing",
+        "focusSector": "Sales",
+        "serviceArea": "E-commerce",
+        "stage": "Ideation",
+        "noActiveYears": "10 years",
+        "ratings": "3",
+        "imgid": "https:\/\/cdn.ceoworld.biz\/wp-content\/uploads\/2019\/06\/Apple.jpg",
+        "reviews": [
             {
-                "text":"very nice"
+                "text": "very nice"
             },
             {
-                "text":"very nice"
+                "text": "very nice"
             },
             {
-                "text":"very nice"
+                "text": "very nice"
             }
         ],
-        "members":[
+        "members": [
             {
-                "name":"@username",
-                "text":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+                "name": "@username",
+                "text": "Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
             },
             {
-                "name":"@username",
-                "text":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+                "name": "@username",
+                "text": "Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
             }
         ],
-        "contact":{
-            "phone":[
+        "contact": {
+            "phone": [
                 {
-                    "text":"9558040444"
+                    "text": "9558040444"
                 },
                 {
-                    "text":"9558040445"
+                    "text": "9558040445"
                 }
             ],
-            "email":[
+            "email": [
                 {
-                    "text":"prachi.pce18@sot.pdpu.ac.in"
+                    "text": "prachi.pce18@sot.pdpu.ac.in"
                 }
             ],
-            "LinkedIn":[
+            "LinkedIn": [
                 {
-                    "text":"https://www.google.com/"
+                    "text": "https:\/\/www.google.com\/"
                 }
-            ]    
+            ]
         }
-        
     },
     {
-        "id":5,
-        "name":"startup5",
-        "details":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
-        "description":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
-        "location":"Gujarat, India",
-        "focusIndustry":"Marketing",
-        "focusSector":"Sales",
-        "serviceArea":"E-commerce",
-        "stage":"Ideation",
-        "noActiveYears":"10 years",
-        "ratings":"3",
-        "imgid":"img.jpg",
-        "reviews":[
+        "id": 5,
+        "username": "e",
+        "useremail": "",
+        "name": "startup5",
+        "details": "What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
+        "description": "What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
+        "location": "Gujarat, India",
+        "focusIndustry": "Marketing",
+        "focusSector": "Sales",
+        "serviceArea": "E-commerce",
+        "stage": "Ideation",
+        "noActiveYears": "10 years",
+        "ratings": "3",
+        "imgid": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQTS7muVABU3gpauURH9S-tlOfkr8VacG2evg&usqp=CAU",
+        "reviews": [
             {
-                "text":"very nice"
+                "text": "very nice"
             },
             {
-                "text":"very nice"
+                "text": "very nice"
             },
             {
-                "text":"very nice"
+                "text": "very nice"
             }
         ],
-        "members":[
+        "members": [
             {
-                "name":"@username",
-                "text":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+                "name": "@username",
+                "text": "Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
             },
             {
-                "name":"@username",
-                "text":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+                "name": "@username",
+                "text": "Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
             }
         ],
-        "contact":{
-            "phone":[
+        "contact": {
+            "phone": [
                 {
-                    "text":"9558040444"
+                    "text": "9558040444"
                 },
                 {
-                    "text":"9558040445"
+                    "text": "9558040445"
                 }
             ],
-            "email":[
+            "email": [
                 {
-                    "text":"prachi.pce18@sot.pdpu.ac.in"
+                    "text": "prachi.pce18@sot.pdpu.ac.in"
                 }
             ],
-            "LinkedIn":[
+            "LinkedIn": [
                 {
-                    "text":"https://www.google.com/"
+                    "text": "https:\/\/www.google.com\/"
                 }
-            ]    
+            ]
         }
-    
     },
     {
-        "id":6,
-        "name":"startup6",
-        "details":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
-        "description":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
-        "location":"Gujarat, India",
-        "focusIndustry":"Marketing",
-        "focusSector":"Sales",
-        "serviceArea":"E-commerce",
-        "stage":"Ideation",
-        "noActiveYears":"10 years",
-        "ratings":"3",
-        "imgid":"img.jpg",
-        "reviews":[
+        "id": 6,
+        "username": "f",
+        "useremail": "",
+        "name": "startup6",
+        "details": "What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
+        "description": "What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
+        "location": "Gujarat, India",
+        "focusIndustry": "Marketing",
+        "focusSector": "Sales",
+        "serviceArea": "E-commerce",
+        "stage": "Ideation",
+        "noActiveYears": "10 years",
+        "ratings": "3",
+        "imgid": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcRhBhs3I9xhZuHZkEbxf-gGQk6iKtT_6CyA_A&usqp=CAU",
+        "reviews": [
             {
-                "text":"no reviews available"
+                "text": "no reviews available"
             }
         ],
-        "members":[
+        "members": [
             {
-                "name":"@username",
-                "text":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+                "name": "@username",
+                "text": "Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
             },
             {
-                "name":"@username",
-                "text":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+                "name": "@username",
+                "text": "Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
             }
         ],
-        "contact":{
-            "phone":[
+        "contact": {
+            "phone": [
                 {
-                    "text":"9558040444"
+                    "text": "9558040444"
                 },
                 {
-                    "text":"9558040445"
+                    "text": "9558040445"
                 }
             ],
-            "email":[
+            "email": [
                 {
-                    "text":"prachi.pce18@sot.pdpu.ac.in"
+                    "text": "prachi.pce18@sot.pdpu.ac.in"
                 }
             ],
-            "LinkedIn":[
+            "LinkedIn": [
                 {
-                    "text":"https://www.google.com/"
+                    "text": "https:\/\/www.google.com\/"
                 }
-            ]    
+            ]
         }
-        
     },
     {
-        "id":7,
-        "name":"startup7",
-        "details":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
-        "description":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
-        "location":"Gujarat, India",
-        "focusIndustry":"Marketing",
-        "focusSector":"Sales",
-        "serviceArea":"E-commerce",
-        "stage":"Ideation",
-        "noActiveYears":"10 years",
-        "ratings":"3",
-        "imgid":"img.jpg",
-        "reviews":[
+        "id": 7,
+        "username": "g",
+        "useremail": "",
+        "name": "startup7",
+        "details": "What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
+        "description": "What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
+        "location": "Gujarat, India",
+        "focusIndustry": "Marketing",
+        "focusSector": "Sales",
+        "serviceArea": "E-commerce",
+        "stage": "Ideation",
+        "noActiveYears": "10 years",
+        "ratings": "3",
+        "imgid": "https:\/\/picjumbo.com\/wp-content\/uploads\/plus-and-minus-daily-profit-stock-exchange-numbers-1080x720.jpg",
+        "reviews": [
             {
-                "text":"very nice"
+                "text": "very nice"
             },
             {
-                "text":"very nice"
+                "text": "very nice"
             },
             {
-                "text":"very nice"
+                "text": "very nice"
             }
         ],
-        "members":[
+        "members": [
             {
-                "name":"@username",
-                "text":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+                "name": "@username",
+                "text": "Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
             },
             {
-                "name":"@username",
-                "text":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+                "name": "@username",
+                "text": "Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
             }
         ],
-        "contact":{
-            "phone":[
+        "contact": {
+            "phone": [
                 {
-                    "text":"9558040444"
+                    "text": "9558040444"
                 },
                 {
-                    "text":"9558040445"
+                    "text": "9558040445"
                 }
             ],
-            "email":[
+            "email": [
                 {
-                    "text":"prachi.pce18@sot.pdpu.ac.in"
+                    "text": "prachi.pce18@sot.pdpu.ac.in"
                 }
             ],
-            "LinkedIn":[
+            "LinkedIn": [
                 {
-                    "text":"https://www.google.com/"
+                    "text": "https:\/\/www.google.com\/"
                 }
-            ]    
+            ]
         }
-        
     },
     {
-        "id":8,
-        "name":"startup8",
-        "details":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
-        "description":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
-        "location":"Gujarat, India",
-        "focusIndustry":"Marketing",
-        "focusSector":"Sales",
-        "serviceArea":"E-commerce",
-        "stage":"Ideation",
-        "noActiveYears":"10 years",
-        "ratings":"3",
-        "imgid":"img.jpg",
-        "reviews":[
+        "id": 8,
+        "username": "h",
+        "useremail": "",
+        "name": "startup8",
+        "details": "What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
+        "description": "What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
+        "location": "Gujarat, India",
+        "focusIndustry": "Marketing",
+        "focusSector": "Sales",
+        "serviceArea": "E-commerce",
+        "stage": "Ideation",
+        "noActiveYears": "10 years",
+        "ratings": "3",
+        "imgid": "https:\/\/wallpaperaccess.com\/full\/177971.jpg",
+        "reviews": [
             {
-                "text":"very nice"
+                "text": "very nice"
             },
             {
-                "text":"very nice"
+                "text": "very nice"
             },
             {
-                "text":"very nice"
+                "text": "very nice"
             }
         ],
-        "members":[
+        "members": [
             {
-                "name":"@username",
-                "text":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+                "name": "@username",
+                "text": "Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
             },
             {
-                "name":"@username",
-                "text":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+                "name": "@username",
+                "text": "Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
             }
         ],
-        "contact":{
-            "phone":[
+        "contact": {
+            "phone": [
                 {
-                    "text":"9558040444"
+                    "text": "9558040444"
                 },
                 {
-                    "text":"9558040445"
+                    "text": "9558040445"
                 }
             ],
-            "email":[
+            "email": [
                 {
-                    "text":"prachi.pce18@sot.pdpu.ac.in"
+                    "text": "prachi.pce18@sot.pdpu.ac.in"
                 }
             ],
-            "LinkedIn":[
+            "LinkedIn": [
                 {
-                    "text":"https://www.google.com/"
+                    "text": "https:\/\/www.google.com\/"
                 }
-            ]    
+            ]
+        }
+    },
+    {
+        "id": 9,
+        "username": "Prachi",
+        "useremail": "",
+        "name": "a",
+        "details": "aa",
+        "description": "a",
+        "location": "a",
+        "focusIndustry": "a",
+        "focusSector": "a",
+        "serviceArea": "a",
+        "stage": "a",
+        "noActiveYears": "a",
+        "ratings": "a",
+        "website": "a",
+        "imgid": "a",
+        "reviews": [],
+        "members": [
+            {
+                "name": "a",
+                "text": "founder"
+            },
+            {
+                "name": "aa",
+                "text": "cofounder"
+            }
+        ],
+        "contact": {
+            "phone": [
+                {
+                    "text": "a"
+                }
+            ],
+            "email": [
+                {
+                    "text": "prachi.pce18@sot.pdpu.ac.in"
+                }
+            ],
+            "LinkedIn": [
+                {
+                    "text": "a"
+                }
+            ]
+        }
+    },
+    {
+        "id": 10,
+        "username": "Prachi",
+        "useremail": "prachi.pce18@sot.pdpu.ac.in",
+        "name": "a",
+        "details": "aa",
+        "description": "a",
+        "location": "a",
+        "focusIndustry": "a",
+        "focusSector": "a",
+        "serviceArea": "a",
+        "stage": "a",
+        "noActiveYears": "a",
+        "ratings": "a",
+        "website": "a",
+        "imgid": "a",
+        "reviews": [],
+        "members": [
+            {
+                "name": "a",
+                "text": "founder"
+            },
+            {
+                "name": "aa",
+                "text": "cofounder"
+            }
+        ],
+        "contact": {
+            "phone": [
+                {
+                    "text": "a"
+                }
+            ],
+            "email": [
+                {
+                    "text": "prachi.pce18@sot.pdpu.ac.in"
+                }
+            ],
+            "LinkedIn": [
+                {
+                    "text": "a"
+                }
+            ]
         }
     }
+    
 ]
