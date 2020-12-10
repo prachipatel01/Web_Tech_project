@@ -137,8 +137,20 @@
               <div class="carousel-inner">
 
                 <?php
+                  $count=0;
                   foreach($feedbacks as $feedback){
-                    echo'<div class="carousel-item active slide2-item align-items-center">
+                    if($count===0){
+                      echo'<div class="carousel-item active slide2-item align-items-center">
+                              <div class="s-c">
+                                <h2 class="display-4">Feedbacks of the Users</h2>
+                                <p class="slide2-content">'.$feedback->feedback.'</p>
+                              </div>
+                              <!--<img src="..." class="d-block w-100" alt="...">-->
+                            </div>';
+                            $count=1;
+                    }
+                    else{
+                    echo'<div class="carousel-item slide2-item align-items-center">
                           <div class="s-c">
                             <h2 class="display-4">Feedbacks of the Users</h2>
                             <p class="slide2-content">'.$feedback->feedback.'</p>
@@ -146,28 +158,35 @@
                           <!--<img src="..." class="d-block w-100" alt="...">-->
                         </div>';
                   }
+                }
                 ?>
+                <!--
                 <div class="carousel-item active slide2-item align-items-center">
                   <div class="s-c">
                     <h2 class="display-4">Feedbacks of the Users</h2>
                     <p class="slide2-content">lorem ipsum</p>
                   </div>
-                  <!--<img src="..." class="d-block w-100" alt="...">-->
+                  <!--<img src="..." class="d-block w-100" alt="...">
                 </div>
+                -->
+                <!--
                 <div class="carousel-item slide2-item align-items-center">
                   <div class="s-c">
                     <h2 class="display-4">Feedbacks of the Users</h2>
                     <p class="slide2-content">loreum</p>
                   </div>
                   <!--<img src="..." class="d-block w-100" alt="...">-->
+                  
+                  <!--
                 </div>
                 <div class="carousel-item slide2-item align-items-center">
                   <div class="s-c">
                     <h2 class="display-4">Feedbacks of the Users</h2>
                     <p class="slide2-content">loreum</p>
                   </div>
-                  <!--<img src="..." class="d-block w-100" alt="...">-->
+                  <!--<img src="..." class="d-block w-100" alt="...">
                 </div>
+                -->
               </div>
               
               <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

@@ -54,15 +54,15 @@ window.addEventListener("scroll", function(){
 
   console.log(scrollvalue);
   parallex.style.transform  = 'translateY(' + scrollPosition*0.9 + 'px';
-  if(scrollvalue<500){
+  if(scrollvalue<400){
     header.style.visibility="visible";
     header.classList.remove("navbar-after");
   }
-  else if((scrollvalue)>500 && (scrollvalue<1000)){
+  else if((scrollvalue)>400 && (scrollvalue<900)){
     header.style.visibility="visible";
     header.classList.add("navbar-after");
   }
-  else if(scrollvalue>1000 && scrollvalue<1300){
+  else if(scrollvalue>900 && scrollvalue<1300){
     header.style.visibility="visible";
     header.classList.remove("navbar-after");
   }
