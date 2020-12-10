@@ -48,6 +48,35 @@
     </div>
 
     <div class="container">
+
+
+    <?php
+      require __DIR__ .'/user.php';
+      $feedbacks = getfeedback();
+      foreach($feedbacks as $feedback){
+        echo '<div class="decoration">
+                <svg width="7em" height="7em" viewBox="0 0 16 16" class="bi bi-arrow-90deg-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M4.854 1.146a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L4 2.707V12.5A2.5 2.5 0 0 0 6.5 15h8a.5.5 0 0 0 0-1h-8A1.5 1.5 0 0 1 5 12.5V2.707l3.146 3.147a.5.5 0 1 0 .708-.708l-4-4z"/>
+                </svg>
+                <div class="feedback-card">
+          
+                  <div class="feedback-img">
+                    <img src="assets\images\img.jpg" alt="">
+                  </div>
+                  <div class="feedback-content">
+                    <p>'.$feedback->feedback.'
+                      <br></p>
+                    <div class="feedback-footer">
+                        <p>-By '.$feedback->name.' </p>
+                    </div>
+                  </div>
+                </div>
+                </div>';
+
+      }
+    ?>
+
+
       <div class="decoration">
       <svg width="7em" height="7em" viewBox="0 0 16 16" class="bi bi-arrow-90deg-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
         <path fill-rule="evenodd" d="M4.854 1.146a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L4 2.707V12.5A2.5 2.5 0 0 0 6.5 15h8a.5.5 0 0 0 0-1h-8A1.5 1.5 0 0 1 5 12.5V2.707l3.146 3.147a.5.5 0 1 0 .708-.708l-4-4z"/>
@@ -94,6 +123,44 @@
       </div>
 
 
+    </div>
+
+  
+    <div class="container">
+      <div class="feedback-box">
+      <form method="post" action="">
+        <h2><strong><label>Give Your Feedback:</label></strong></h2>
+          <?php 
+
+          if(isset($_POST['submit'])){
+            if($_POST['name']!="" && $_POST['email']!="" && $_POST['feedback']!=""){ 
+              addfeedback($_POST);
+              echo '<div class="form-group">
+                      <label style="color: red;">Feedback added!</label>
+                    </div>';
+            }
+            else{
+              echo '<div class="form-group">
+                      <label style="color: red;">*all inputs are required</label>
+                    </div>';
+            }
+          }
+          ?>
+          <div class="form-group">
+            <label>Name</label>
+            <input type="text" class="form-control" placeholder="name" name="name">
+          </div>
+          <div class="form-group">
+            <label>Email address</label>
+            <input type="email" class="form-control" placeholder="name@example.com" name="email">
+          </div>
+          <div class="form-group">
+            <label>Feedback</label>
+            <textarea class="form-control" rows="3" name="feedback"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary mb-2" name="submit">Enter</button>
+        </form>
+      </div>
     </div>
 
 

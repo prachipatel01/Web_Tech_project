@@ -172,4 +172,24 @@
                 };
     }
 
+
+
+    function getfeedback(){
+        return json_decode(file_get_contents(__DIR__.'/assets/data/feedback.json'));
+    }
+
+    function addfeedback($data){
+        $array_data = getfeedback($data);
+        $extra = array(
+            "name"=> $data['name'],
+            "email" => $data['email'], 
+            "feedback" => $data['feedback'],
+        );
+        $array_data[] = $extra;
+        $final_data = json_encode($array_data,JSON_PRETTY_PRINT);
+        if(file_put_contents('./assets/data/feedback.json', $final_data)){
+        };
+    }
+
+
 ?>

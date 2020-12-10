@@ -18,6 +18,7 @@
   margin-left: 0px;
   box-shadow: -3px 3px 10px 5px grey;
   font-size:15px;
+  width: 100%;
 }
 .feedback-img{
   height:183px;
@@ -53,6 +54,10 @@ svg{
 }
 
 
-.navbar{
-  
+.feedback-box{
+  color: black;
+  border: 1px solid gray;
+  padding:20px;
+  margin:20px;
+  border-radius:10px;
 }

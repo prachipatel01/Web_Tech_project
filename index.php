@@ -124,30 +124,47 @@
 
 
           <!--Text Slider -->
+          <?php
+            require __DIR__ .'/user.php';
+            $feedbacks = getfeedback();
+            
 
+          ?>
         <div class="div4 parallex">
-          <a href="./feedback.html" style="text-decoration: none; color:inherit;">
+          <a href="./feedback.php" style="text-decoration: none; color:inherit;">
           <div class="">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
+
+                <?php
+                  foreach($feedbacks as $feedback){
+                    echo'<div class="carousel-item active slide2-item align-items-center">
+                          <div class="s-c">
+                            <h2 class="display-4">Feedbacks of the Users</h2>
+                            <p class="slide2-content">'.$feedback->feedback.'</p>
+                          </div>
+                          <!--<img src="..." class="d-block w-100" alt="...">-->
+                        </div>';
+                  }
+                ?>
                 <div class="carousel-item active slide2-item align-items-center">
                   <div class="s-c">
                     <h2 class="display-4">Feedbacks of the Users</h2>
-                    <p class="slide2-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum provident doloremque quam ipsam obcaecati nostrum error consectetur repellat dolor fugit eveniet, veritatis saepe fuga, recusandae illo, adipisci voluptatibus? Maxime, ipsum.</p>
+                    <p class="slide2-content">lorem ipsum</p>
                   </div>
                   <!--<img src="..." class="d-block w-100" alt="...">-->
                 </div>
                 <div class="carousel-item slide2-item align-items-center">
                   <div class="s-c">
                     <h2 class="display-4">Feedbacks of the Users</h2>
-                    <p class="slide2-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum provident doloremque quam ipsam obcaecati nostrum error consectetur repellat dolor fugit eveniet, veritatis saepe fuga, recusandae illo, adipisci voluptatibus? Maxime, ipsum.</p>
+                    <p class="slide2-content">loreum</p>
                   </div>
                   <!--<img src="..." class="d-block w-100" alt="...">-->
                 </div>
                 <div class="carousel-item slide2-item align-items-center">
                   <div class="s-c">
                     <h2 class="display-4">Feedbacks of the Users</h2>
-                    <p class="slide2-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum provident doloremque quam ipsam obcaecati nostrum error consectetur repellat dolor fugit eveniet, veritatis saepe fuga, recusandae illo, adipisci voluptatibus? Maxime, ipsum.</p>
+                    <p class="slide2-content">loreum</p>
                   </div>
                   <!--<img src="..." class="d-block w-100" alt="...">-->
                 </div>
@@ -297,8 +314,6 @@
           <!--footer-->
       
           <?php
-
-            require __DIR__ .'/user.php';
             if($_SERVER['REQUEST_METHOD']==='POST'){
               if($_POST['username']!="" && $_POST['password']!="" && $_POST['email']!="")
               {
