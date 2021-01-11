@@ -18,5 +18,10 @@
         "name": "Prachi",
         "email": "prachi.sce18@sot.pdpu.ac.in",
         "password": "123"
+    },
+    {
+        "name": "xyz",
+        "email": "xyz@gmail.com",
+        "password": "123"
     }
 ]

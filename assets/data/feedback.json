@@ -2,16 +2,19 @@
     {
         "name": "Prachi",
         "email": "prachi192000@gmail.com",
-        "feedback": "This website is really very helpful for publishing our startups.you can get reviews and ratings as well ! such a great work guys!"
+        "feedback": "This website is really very helpful for publishing our startups.you can get reviews and ratings as well ! such a great work guys!",
+        "image": "person1.jpg"
     },
     {
         "name": "pankti shah",
         "email": "pankti.sce18@sot.pdpu.ac.in",
-        "feedback": "Really great website to get publicity for your startup! Recommended you all to add your startup over here, it will grow!"
+        "feedback": "Really great website to get publicity for your startup! Recommended you all to add your startup over here, it will grow!",
+        "image": "person2.jpg"
     },
     {
         "name": "prithviraj",
         "email": "prithviraj.kce18@sot.pdpu.ac.in",
-        "feedback": "Helpfull! There are some problems such as gallery option and other small glitches but otherwise good work guys!"
+        "feedback": "Helpfull! There are some problems such as gallery option and other small glitches but otherwise good work guys!",
+        "image": "img.jpg"
     }
 ]

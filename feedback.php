@@ -61,7 +61,7 @@
                 <div class="feedback-card">
           
                   <div class="feedback-img">
-                    <img src="assets\images\img.jpg" alt="">
+                    <img src="assets\images\feedbackUsers\\'.$feedback->image.'" alt="">
                   </div>
                   <div class="feedback-content">
                     <p>'.$feedback->feedback.'
@@ -77,7 +77,7 @@
     ?>
 
 
-      <div class="decoration">
+      <!-- <div class="decoration">
       <svg width="7em" height="7em" viewBox="0 0 16 16" class="bi bi-arrow-90deg-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
         <path fill-rule="evenodd" d="M4.854 1.146a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L4 2.707V12.5A2.5 2.5 0 0 0 6.5 15h8a.5.5 0 0 0 0-1h-8A1.5 1.5 0 0 1 5 12.5V2.707l3.146 3.147a.5.5 0 1 0 .708-.708l-4-4z"/>
       </svg>
@@ -120,7 +120,7 @@
           </div>
         </div>
       </div>
-      </div>
+      </div> -->
 
 
     </div>
@@ -128,16 +128,25 @@
   
     <div class="container">
       <div class="feedback-box">
-      <form method="post" action="">
+      <form method="post" action="" enctype="multipart/form-data">
         <h2><strong><label>Give Your Feedback:</label></strong></h2>
           <?php 
 
           if(isset($_POST['submit'])){
-            if($_POST['name']!="" && $_POST['email']!="" && $_POST['feedback']!=""){ 
-              addfeedback($_POST);
-              echo '<div class="form-group">
-                      <label style="color: red;">Feedback added!</label>
-                    </div>';
+            if($_POST['name']!="" && $_POST['email']!="" && $_POST['feedback']!="" && isset($_FILES['file'])){
+              //if(isset($_FILES['file'])){
+                addfeedback($_POST,1,$_FILES);
+                //$file = $_FILES['file'];
+                echo '<div class="form-group">
+                  <label style="color: red;">Feedback added!</label>
+                </div>';
+              // }else{
+              //   $FILES=array();
+              //   addfeedback($_POST,0,$FILES);
+              //   echo '<div class="form-group">
+              //     <label style="color: red;">Feedback added!</label>
+              //   </div>';
+              // }
             }
             else{
               echo '<div class="form-group">
@@ -157,6 +166,10 @@
           <div class="form-group">
             <label>Feedback</label>
             <textarea class="form-control" rows="3" name="feedback"></textarea>
+          </div>
+          <div class="form-group">
+            <label>Upload image</label>
+            <input type="file" name="file">
           </div>
           <button type="submit" class="btn btn-primary mb-2" name="submit">Enter</button>
         </form>

@@ -178,18 +178,57 @@
         return json_decode(file_get_contents(__DIR__.'/assets/data/feedback.json'));
     }
 
-    function addfeedback($data){
+
+    function addfeedback($data,$imgupload,$FILES){
+        //print_r($FILES);
+        if($imgupload===1 && isset($FILES['file']) && $FILES['file']['name']!=""){
+            $file = $FILES['file'];
+
+            $fileName = $FILES['file']['name'];
+            $fileTmpName = $FILES['file']['tmp_name'];
+            $fileSize = $FILES['file']['size'];
+            $fileError = $FILES['file']['error'];
+            $fileType = $FILES['file']['type'];
+
+            $fileExt = explode('.',$fileName);
+            $fileActualExt = strtolower(end($fileExt));
+
+            $allowed = array('jpg','jpeg','png');
+            if(in_array($fileActualExt, $allowed)){
+                if($fileError === 0){
+                    if($fileSize < 1000000){
+                        $fileNameNew = $data['name'].".".$fileActualExt;
+                        $fileDestination = "assets/images/feedbackUsers/".$fileNameNew;
+                        move_uploaded_file($fileTmpName, $fileDestination);
+                    }else{
+                        echo "<script>alert('File size is too big!');</script>";        
+                        return;
+                    }
+
+                }else{
+                    echo "<script>alert('There was an error uploading your file! Please try again');</script>";    
+                    return;
+                }
+
+            }else{
+                echo "<script>alert('you can not upload file of this type!');</script>";
+                return;
+            }
+        }else{
+            $fileNameNew = 'img.jpg';
+        }
+        
+
         $array_data = getfeedback($data);
         $extra = array(
             "name"=> $data['name'],
             "email" => $data['email'], 
             "feedback" => $data['feedback'],
+            "image" => $fileNameNew
         );
         $array_data[] = $extra;
         $final_data = json_encode($array_data,JSON_PRETTY_PRINT);
         if(file_put_contents('./assets/data/feedback.json', $final_data)){
         };
     }
-
-
 ?>

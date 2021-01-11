@@ -2,7 +2,7 @@
     {
         "id": 1,
         "username": "a",
-        "useremail": "",
+        "useremail": "a@gmail.com",
         "name": "startup1",
         "details": "What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
         "description": "What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
@@ -60,7 +60,7 @@
     {
         "id": 2,
         "username": "b",
-        "useremail": "",
+        "useremail": "a@gmail.com",
         "name": "startup2",
         "details": "What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
         "description": "What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
@@ -117,7 +117,7 @@
     {
         "id": 3,
         "username": "c",
-        "useremail": "",
+        "useremail": "a@gmail.com",
         "name": "startup3",
         "details": "What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
         "description": "What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
@@ -174,7 +174,7 @@
     {
         "id": 4,
         "username": "d",
-        "useremail": "",
+        "useremail": "a@gmail.com",
         "name": "startup4",
         "details": "What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
         "description": "What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
@@ -231,7 +231,7 @@
     {
         "id": 5,
         "username": "e",
-        "useremail": "",
+        "useremail": "a@gmail.com",
         "name": "startup5",
         "details": "What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
         "description": "What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
@@ -288,7 +288,7 @@
     {
         "id": 6,
         "username": "f",
-        "useremail": "",
+        "useremail": "a@gmail.com",
         "name": "startup6",
         "details": "What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
         "description": "What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
@@ -339,7 +339,7 @@
     {
         "id": 7,
         "username": "g",
-        "useremail": "",
+        "useremail": "a@gmail.com",
         "name": "startup7",
         "details": "What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
         "description": "What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
@@ -396,7 +396,7 @@
     {
         "id": 8,
         "username": "h",
-        "useremail": "",
+        "useremail": "a@gmail.com",
         "name": "startup8",
         "details": "What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
         "description": "What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?",
@@ -446,51 +446,6 @@
             "LinkedIn": [
                 {
                     "text": "https:\/\/www.google.com\/"
-                }
-            ]
-        }
-    },
-    {
-        "id": 9,
-        "username": "Prachi",
-        "useremail": "",
-        "name": "a",
-        "details": "aa",
-        "description": "a",
-        "location": "a",
-        "focusIndustry": "a",
-        "focusSector": "a",
-        "serviceArea": "a",
-        "stage": "a",
-        "noActiveYears": "a",
-        "ratings": "a",
-        "website": "a",
-        "imgid": "a",
-        "reviews": [],
-        "members": [
-            {
-                "name": "a",
-                "text": "founder"
-            },
-            {
-                "name": "aa",
-                "text": "cofounder"
-            }
-        ],
-        "contact": {
-            "phone": [
-                {
-                    "text": "a"
-                }
-            ],
-            "email": [
-                {
-                    "text": "prachi.pce18@sot.pdpu.ac.in"
-                }
-            ],
-            "LinkedIn": [
-                {
-                    "text": "a"
                 }
             ]
         }
