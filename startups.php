@@ -1,9 +1,9 @@
 <?php
+    $page = $_GET['page'];
     require __DIR__ .'/user.php';
     $startups = getStartupsData(); 
     
 ?>
-
 
 
 <!DOCTYPE html>
@@ -73,6 +73,7 @@
       </div>
       <div class="page-box output">
         <div class="container">
+
           <div class="row row-cols-1 row-cols-md-3">
 
 
@@ -99,32 +100,38 @@
                     echo '
                     <div class="col mb-4" style="padding-top:50px;">
                         <h3>Startup not found</h3>
-                        <button class="new-btn"><a href="./startups.php" style="text-decoration: none; color:inherit;"><- Back</a></button>
+                        <button class="new-btn"><a href="./startups.php?page=1" style="text-decoration: none; color:inherit;"><- Back</a></button>
                     </div>
                     ';
                   }
                 }
                 else{
-                
-                foreach($startups as $startup){
-                  echo '<div class="col mb-4">
-                          <div class="card">
-                            
-                            <div class="card-body" style="background-image: url('.$startup->imgid.');">
-                              
-                            </div>
-                            <div class="card-body card-overlay">
-                              <h5 class="card-title">'.$startup->name.'</h5>
-                              <button class="new-btn" type="button">
-                                <a href="./startup_page_clone.php?id='.$startup->id.'" style="text-decoration: none; color:inherit;">
-                                  Find more >
-                                </a>
-                              </button>
-                            </div>
-                          </div>
-                        </div>';
+                  $num_of_startups=6;
+                  $num_start = ($page-1) * $num_of_startups;
+                  $num_end = ($page)*$num_of_startups;
+                  $num = 0;
+                    foreach($startups as $startup){
+                      if($num>=$num_start && $num<$num_end){
+                      echo '<div class="col mb-4">
+                              <div class="card">
+                                
+                                <div class="card-body" style="background-image: url('.$startup->imgid.');">
+                                  
+                                </div>
+                                <div class="card-body card-overlay">
+                                  <h5 class="card-title">'.$startup->name.'</h5>
+                                  <button class="new-btn" type="button">
+                                    <a href="./startup_page_clone.php?id='.$startup->id.'" style="text-decoration: none; color:inherit;">
+                                      Find more >
+                                    </a>
+                                  </button>
+                                </div>
+                              </div>
+                            </div>';
+                    }
+                    $num = $num +1;
+                  }
                 }
-              }
               ?>
              
              <!--
@@ -143,6 +150,40 @@
             -->    
              
             </div>
+            <br>
+              <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-end">
+                <?php 
+                  if(count($startups)%$num_of_startups === 0){
+                    $num_of_pages = count($startups)/$num_of_startups; 
+                  }
+                  else{
+                    $num_of_pages = count($startups)/$num_of_startups+1; 
+                  }
+                  $prev = $page-1;
+                  $next = $page+1;
+                  if($prev>=1){
+                    echo '<li class="page-item">
+                            <a class="page-link" href="startups.php?page='.$prev.'" tabindex="-1">Previous</a>
+                          </li>';                   
+                  }
+                    for($i = 1; $i<=$num_of_pages; $i++){
+                      if($i == $page){
+                        echo '<li class="page-item active"><a class="page-link" href="startups.php?page='.$i.'">'.$i.'</a></li>';
+                      }
+                      else{
+                        echo '<li class="page-item"><a class="page-link" href="startups.php?page='.$i.'">'.$i.'</a></li>';
+                      }
+                    }
+                  if($next<=$num_of_pages){
+                    echo '<li class="page-item">
+                            <a class="page-link" href="startups.php?page='.$next.'">Next</a>
+                          </li>';
+                  }
+                  ?>
+                  </ul>
+                </nav>
+              <br>
           </div>
         </div>
       </div>
